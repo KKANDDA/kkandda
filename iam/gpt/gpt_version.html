@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 포트폴리오</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- 첫 번째 페이지: 인삿말 -->
+  <section id="page1" class="page">
+    <h1>환영합니다!</h1>
+    <p>제 포트폴리오에 오신 것을 환영합니다.</p>
+    <button onclick="goToPage('page2')">소개 페이지로 이동</button>
+  </section>
+
+  <!-- 두 번째 페이지: 간단한 소개 -->
+  <section id="page2" class="page">
+    <h2>소개</h2>
+    <p>안녕하세요, 저는 신입 개발자 [이름]입니다.</p>
+    <button onclick="goToPage('page3')">메뉴 페이지로 이동</button>
+  </section>
+
+  <!-- 세 번째 페이지: 메뉴 -->
+  <section id="page3" class="page">
+    <h2>메뉴</h2>
+    <div class="icon-container">
+      <a href="https://github.com/yourgithub" target="_blank"><img src="github-icon.png" alt="GitHub 아이콘"></a>
+      <a href="https://www.instagram.com/yourinstagram" target="_blank"><img src="instagram-icon.png" alt="Instagram 아이콘"></a>
+      <button onclick="goToPage('page4')"><img src="about-icon.png" alt="자기소개 아이콘"></button>
+      <button onclick="goToPage('page5')"><img src="skills-icon.png" alt="기술 목록 아이콘"></button>
+    </div>
+  </section>
+
+  <!-- 네 번째 페이지: 상세한 자기소개 -->
+  <section id="page4" class="page">
+    <h2>자기소개</h2>
+    <p>저는 [상세한 자기소개 내용].</p>
+    <button onclick="goToPage('page3')">메뉴로 돌아가기</button>
+  </section>
+
+  <!-- 다섯 번째 페이지: 보유한 기술 목록 -->
+  <section id="page5" class="page">
+    <h2>기술 목록</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+    <button onclick="goToPage('page3')">메뉴로 돌아가기</button>
+  </section>
+
+
+  <script>
+    function goToPage(pageId) {
+  const pages = document.querySelectorAll('.page');
+  pages.forEach(page => page.style.display = 'none');
+  
+  const targetPage = document.getElementById(pageId);
+  if (targetPage) {
+    targetPage.style.display = 'block';
+  }
+}
+
+  </script>
+</body>
+</html>
