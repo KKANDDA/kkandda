@@ -1,0 +1,42 @@
+/* src/App.css */
+.jaro-heading {
+    font-family: "Jaro", sans-serif;
+    font-weight: 700; /* 굵은 글씨 */
+    font-size: 3rem;   /* 제목 크기 */
+}
+
+.jaro-paragraph {
+    font-family: "Jaro", sans-serif;
+    font-weight: 400; /* 일반 두께 */
+    font-size: 1em;   /* 문단 크기 */
+    line-height: 1.5; /* 줄 간격 */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 정렬 */
+    align-items: center; /* 중앙 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    height: 100vh; /* 화면 전체 높이 */
+}
+
+.profile {
+    width: 80%; /* 화면의 80% 너비 */
+    max-width: 600px; /* 최대 너비 설정 */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .profile {
+        width: 95%; /* 작은 화면에서는 너비를 더 줄입니다 */
+    }
+}
+
+@media (min-width: 601px) {
+    .profile {
+        width: 80%; /* 큰 화면에서는 기본 너비 */
+    }
+}
