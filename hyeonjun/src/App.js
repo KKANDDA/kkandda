@@ -2,6 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './App.css'; // CSS 파일 import
 import Intro from "./pages/Intro";
 import ErrorPage from "./pages/ErrorPage";
+import Main from "./pages/Main";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Intro/>}/>
         <Route path="*" element={<ErrorPage/>}/>
+        <Route path="/main" element={<Main/>}/>
           
       
       </Routes>
