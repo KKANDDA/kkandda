@@ -16,3 +16,7 @@
     background-color: #f0f0f0;
     text-align: center;
 }
+
+.tech-list {
+    margin-top: 100px; /* 프론트엔드 기술 목록을 아래로 이동 */
+}

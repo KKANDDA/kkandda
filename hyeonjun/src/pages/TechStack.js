@@ -28,7 +28,7 @@ const TechStack = () => {
                                 </div>
                             </td>
                             <td>
-                                <div>
+                                <div className='tech-list'>
                                     <img
                                         src="../images/icon/front_icon.png" // 이미지 URL을 여기에 입력하세요.
                                         alt="Profile"
