@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css'; // 기존 CSS 파일을 사용해도 됩니다.
+import '../css/Main.css'; // 기존 CSS 파일을 사용해도 됩니다.
 
 const Main = () => {
   return (
@@ -64,8 +64,6 @@ const Main = () => {
             </table>
         </div>
     </>
-    
-    
   );
 };
 

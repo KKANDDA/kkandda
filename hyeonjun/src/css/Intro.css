@@ -14,12 +14,6 @@
     height: 80px; /* 이미지 크기 조절 */
   }
   
-  h1, h2 {
-    font-family: 'Arial', sans-serif; /* 폰트 설정 */
-    /* margin: 10px 0; */
-    line-height: 1.2;
-  }
-
   .mt {
     margin-top: 50px;
   }

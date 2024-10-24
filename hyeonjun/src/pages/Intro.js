@@ -1,5 +1,5 @@
 import React from 'react';
-import './Intro.css'; // CSS 파일을 별도로 만들어 스타일을 추가할 수 있습니다.
+import '../css/Intro.css'; // CSS 파일을 별도로 만들어 스타일을 추가할 수 있습니다.
 
 const Intro = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ErrorPage.css'; // 기존 CSS 파일을 사용해도 됩니다.
+import '../css/ErrorPage.css'; // 기존 CSS 파일을 사용해도 됩니다.
 
 const ErrorPage = () => {
   return (
