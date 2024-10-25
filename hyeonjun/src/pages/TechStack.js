@@ -4,11 +4,11 @@ import '../css/TechStack.css';
 const TechStack = () => {
     return(
         <>
-            <div className="skills-container">
-                <div>
+            <div >
+                <div className='skills-container'>
                     <table>
-                        <tbody className="jaro-heading">
-                            <td>
+                        <tbody className="jaro-heading skills-container">
+                            <td >
                                 <img
                                     src="../images/icon/back_icon.png" // 이미지 URL을 여기에 입력하세요.
                                     alt="Profile"
@@ -16,11 +16,10 @@ const TechStack = () => {
                                 />
 
                                 <div>
-                                    <p>Spring</p>
+                                    <p className='margin-top'>Spring</p>
                                     <p>JPA</p>
                                     <p>Java</p>
                                     <p>Mysql</p>
-                                    <p>Java</p>
                                     <p>Docker</p>
                                     <p>Jenkins</p>
                                     <p>Aws</p>
@@ -28,14 +27,14 @@ const TechStack = () => {
                                 </div>
                             </td>
                             <td>
-                                <div className='tech-list'>
+                                <div >
                                     <img
                                         src="../images/icon/front_icon.png" // 이미지 URL을 여기에 입력하세요.
                                         alt="Profile"
                                         className="image-container-back"
                                     />
                                     <div>
-                                        <p>React</p>
+                                        <p className='margin-top'>React</p>
                                         <p>flutter</p>
                                         <p>HTML</p>
                                         <p>CSS</p>

@@ -15,8 +15,30 @@
     height: 100vh;
     background-color: #f0f0f0;
     text-align: center;
+    position: relative;
+}
+
+.margin-top{
+  margin-top: 20px;
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right{
+  position:absolute;
+  top: 0;
+  right: 0;
 }
 
 .tech-list {
     margin-top: 100px; /* 프론트엔드 기술 목록을 아래로 이동 */
+}
+
+.image-container-back {
+  max-width: 100%; /* 이미지의 최대 너비를 100%로 설정하여 반응형으로 조절 */
+  height: auto; /* 비율 유지 */
 }
