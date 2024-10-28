@@ -8,7 +8,7 @@
   grid-template-columns: auto 1fr; /* 이미지 열은 자동 크기, 텍스트는 나머지 공간 차지 */
   align-items: center; /* 세로 중앙 정렬 */
   height: auto; /* 화면 전체 높이 */
-  background-color: white; /* 배경색 */
+  background-color: #f0f0f0; /* 배경색 */
   margin-bottom: 3%;
   position: relative;
 }

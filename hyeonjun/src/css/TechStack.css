@@ -5,7 +5,7 @@
     justify-content: center;
     height: 100vh; /* 화면 중앙에 배치 */
     text-align: center;
-    background-color: white; /* 배경색 */
+    background-color: #f0f0f0; /* 배경색 */
   }
 
   .skills-container {
