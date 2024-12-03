@@ -4,6 +4,7 @@ import Intro from "./pages/Intro";
 import ErrorPage from "./pages/ErrorPage";
 import Main from "./pages/Main";
 import TechStack from "./pages/TechStack";
+import TooMuchInfo from "./pages/TooMuchInfo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="*" element={<ErrorPage/>}/>
         <Route path="/main" element={<Main/>}/>
         <Route path="/techstack" element={<TechStack/>}/>
+        <Route path="/info" element={<TooMuchInfo/>}/>
           
       
       </Routes>
