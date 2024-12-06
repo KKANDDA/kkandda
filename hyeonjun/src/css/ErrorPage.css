@@ -1,26 +1,26 @@
-
-
-
-
-
-.grid-container {
-  display: grid; /* Grid 활성화 */
-  grid-template-columns: auto 1fr; /* 이미지 열은 자동 크기, 텍스트는 나머지 공간 차지 */
-  align-items: center; /* 세로 중앙 정렬 */
-  height: auto; /* 화면 전체 높이 */
-  background-color: #f0f0f0; /* 배경색 */
-  margin-bottom: 3%;
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
   position: relative;
+  height: 100vh;
 }
 
 .image-container {
-  max-width: 100%; /* 이미지의 최대 너비를 100%로 설정하여 반응형으로 조절 */
-  height: auto; /* 비율 유지 */
+  max-width: 100%;
+  /* 이미지의 최대 너비를 100%로 설정하여 반응형으로 조절 */
+  height: auto;
+  /* 비율 유지 */
 }
 
 .text-container {
-  display: flex; /* 플렉스 박스 */
-  flex-direction: column; /* 세로 방향 */
-  text-align: left; /* 텍스트 왼쪽 정렬 */
-  margin-left: 60px; /* 텍스트와 이미지 간의 간격 (필요에 따라 조정) */
+  display: flex;
+  /* 플렉스 박스 */
+  flex-direction: column;
+  /* 세로 방향 */
+  text-align: left;
+  /* 텍스트 왼쪽 정렬 */
+  margin-left: 60px;
+  /* 텍스트와 이미지 간의 간격 (필요에 따라 조정) */
 }

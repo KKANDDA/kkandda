@@ -1,30 +1,60 @@
-  .flex-container-main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* 왼쪽 정렬 */
-    justify-content: center;
-    height: 100vh; /* 화면 중앙에 배치 */
-    text-align: left; /* 텍스트 왼쪽 정렬 */
-    background-color: #f0f0f0; /* 배경색 */
-    padding-left: 20px; /* 왼쪽 여백 추가 (필요에 따라 조정) */
-    margin-left: 10%;
-    width: fit-content;
+.main-container {
+  /* position: relative; */
+  /* 요소를 유연하게 배치하기 위한 컨테이너로 설정 */
+  display: flex;
+
+  /* 자식 요소들을 세로 방향으로 배치 */
+  flex-direction: column;
+
+  /* 자식 요소들을 세로축(column)의 시작점에 정렬 (왼쪽 정렬) */
+  align-items: flex-start;
+
+  /* 자식 요소들을 가로축(row)의 중앙에 정렬 */
+  justify-content: center;
+
+  /* 컨테이너의 높이를 화면 높이 전체로 설정 */
+  height: 100vh;
+
+  /* 컨테이너 내의 텍스트를 왼쪽 정렬 */
+  text-align: left;
+
+  /* 컨테이너의 배경색을 연한 회색으로 설정 */
+  background-color: #f0f0f0;
+
+  /* 컨테이너의 왼쪽에 패딩을 추가하여 내용과의 간격을 줌 */
+  padding-left: 15%;
+
+  /* 컨테이너의 왼쪽에 마진을 추가하여 다른 요소와의 간격을 줌 (필요에 따라 사용) */
+  /* margin-left: 10%; */
+
+  /* 컨테이너의 너비를 내용에 맞게 자동 조절 (필요에 따라 사용) */
+  /* width: fit-content; */
 }
 
-.flex-container-main-img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    transform: translate(50%, 50%);
-    margin-top: 10px;
-    
-    /* display: flex;
+.main-container-img {
+  /* position: absolute; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* transform: translate(50%, 50%); */
+  /* margin-top: 10px; */
+
+  /* display: flex;
     flex-direction: column;
     align-items: flex-end; 
     justify-content: center; */
-    /* height: 100vh; 화면 중앙에 배치 */
-    text-align: right; /* 텍스트 오른쪽 정렬 */
-    background-color: #f0f0f0; /* 배경색 */
-    /*padding-left: 20px;  왼쪽 여백 추가 (필요에 따라 조정) 
+  /* height: 100vh; 화면 중앙에 배치 */
+  /* text-align: right; */
+  /* 텍스트 오른쪽 정렬 */
+  /* background-color: #f0f0f0; */
+  /* 배경색 */
+  /*padding-left: 20px;  왼쪽 여백 추가 (필요에 따라 조정) 
     margin-left: 20%;*/
+}
+
+.main-container-row {
+  display: flex;
+  /* flex-direction: inherit; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
